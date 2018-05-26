@@ -1,0 +1,45 @@
+Hi!
+
+
+
+This is a text file to explain how these programs work.
+
+
+
+So, first things first, you'll need to install a few things:
+
+
+1: Python 2
+
+2: the Natural Language Toolkit (nltk) for Python: https://www.nltk.org/
+
+	2b: you'll need to install cmudict as well. To do this:
+		Open the console
+		Type python
+		Type import nltk
+		Type nltk.download('cmudict')
+	Done!
+3: markovify: https://github.com/jsvine/markovify
+    (note: this is only for the sonnetMakerMarkov.py file)
+
+4: tweepy: http://www.tweepy.org/
+
+
+
+Now, you have a choice. You can either run a program that will construct a sonnet from tweets, or you can construct a sonnet from semi-randomly generated text.
+
+To generate a sonnet from tweets, you need to edit the code in sonnetMakerTweets.py. You need to give the strings consumer_key, consumer_secret, access_token, and access_secret your own information.
+For a tutorial on how to do this: https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/
+
+
+
+To generate a sonnet using some other text as an example, simply fill corpus.txt with whatever text you'd like. I have provided the text of the Iliad and some of Shakespeare's work as an example.
+
+
+
+Now, to generate your sonnet, type "python sonnetMakerMarkov.py" or "python sonnetMakerTweets.py" into the console.
+
+The generation will take a while, because you are processing human language.
+
+
+Happy sonnetting!
