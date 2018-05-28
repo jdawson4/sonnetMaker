@@ -87,7 +87,7 @@ while (numberOfCouplets < 7):
             numberOfCouplets = numberOfCouplets + 1
             break
     indexOfLineA = indexOfLineA + 1
-    print('Moving on to line ' + str(1 + indexOfLineA))
+    #print('Moving on to line ' + str(1 + indexOfLineA))
 print('Finished checking for rhyming couplets\nPrinting finished sonnet')
 #oof. That's some nasty code right there
 #Trust me, it works (mostly)
